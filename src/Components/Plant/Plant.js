@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Plant.scss';
 import SoilClient from '../../Clients/SoilClient';
+import * as d3 from 'd3';
 
 
 
