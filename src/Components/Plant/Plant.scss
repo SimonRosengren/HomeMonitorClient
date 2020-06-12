@@ -1,0 +1,19 @@
+@import '../../styles/colors.scss';
+
+.wrapper{
+    background-color: $color-grey;
+    color: $color-white;
+    padding: 1.3rem;
+}
+
+.progressBar{
+    height: 2rem;
+    background-color: transparent;
+    border: 1px solid $color-white;
+    padding: 0.5rem;
+
+    .progressBarFiller{
+        background-color: $color-white;
+        height: 100%;
+    }
+}

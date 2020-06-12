@@ -1,24 +1,26 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import SoilClient from './Clients/SoilClient';
+import Plant from './Components/Plant/Plant';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Home Monitor</h1>
+      <div className="Grid">
+        <div className="Row">
+          <div className="Third">
+          <Plant/>
+          </div>
+          <div className="Third">
+            <p>half</p>
+          </div>
+          <div className="Third">
+            <p>half</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
